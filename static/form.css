@@ -1,0 +1,67 @@
+nav{
+    padding: 25px;
+}
+
+.container{
+    padding: 25px;margin-top: 50px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form input:not([type="checkbox"]),
+form select {
+  margin: 10px;
+  height: 40px;
+}
+.correct-password{
+    color: lime;
+}
+
+.incorrect-password{
+    color:red;
+}
+.passwordMatchMessage{
+    margin-left: 15px;
+}
+
+/* checkbox styles */
+.checkbox-label {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-top: -5px;
+  }
+  
+  .checkbox-input {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #bbb;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .checkbox-input:checked {
+    border-color: #007bff;
+    background-color: #007bff;
+  }
+  
+  .checkbox-input:checked::before {
+    content: "\2713";
+    display: block;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    line-height: 12px;
+  }
+  
+  .checkbox-input:focus {
+    border-color: #007bff;
+  }
+  

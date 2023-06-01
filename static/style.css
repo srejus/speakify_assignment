@@ -1,0 +1,76 @@
+.list-div{
+    width: 70%;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+.profile-div{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    margin-bottom: 25px;
+    width: 100%;
+    height: 70px;
+    border: 0.7 px solid #9f9e9e;
+}
+
+.pro-pic{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    padding: 7px;
+}
+
+.profile-div h6{
+    margin-top: 7px;
+    width: 300px;
+}
+
+
+
+
+/* Toggle container styles */
+.toggle {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Slider styles */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+  }
+  
+  /* Styling when the toggle is checked/on */
+  input[type="checkbox"]:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input[type="checkbox"]:checked + .slider:before {
+    transform: translateX(26px);
+  }
+  
+  /* Hide the default checkbox */
+  input[type="checkbox"] {
+    display: none;
+  }
+  
