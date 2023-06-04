@@ -16,3 +16,8 @@ Admin
 username - admin
 password - admin123
 
+# Screenshots
+
+![First Screenshot of all connections page](github_srnsht_1.png)
+
+![Second Screenshot of connections page](github_srnsht_2.png)
