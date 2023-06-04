@@ -43,7 +43,9 @@
             <div class="profile-div">
                 <img src="https://www.nicepng.com/png/full/128-1280406_view-user-icon-png-user-circle-icon-png.png" class="pro-pic" alt="user-profile">
                 <h6>{{user.first_name}}</h6>
-                <button class="btn btn-primary">connect</button>
+                <a href="/connect/{{user.id}}">
+                    <button class="btn btn-primary">connect</button>
+                </a>
             </div>
             {% endfor %}
         </div>
