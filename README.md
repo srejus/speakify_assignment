@@ -6,6 +6,12 @@ Connect with others online
 
 Simple implementation of django channels to connect with other people online
 
+Frontend
+HTML,CSS,JS
+
+Backend
+Django,django-channels
+
 ## Installation
 
 Just clone this repository and do the migrations
